@@ -1,0 +1,5 @@
+﻿  Compiling CUDA source file ..\..\Game_of_Life\Game_of_Life\src\world_grid.cu...
+  
+  C:\Users\DELL\Documents\GitHub\Cuda-Game_of_Life\GameofLife\GameofLife>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static --std c++17 -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\DELL\Documents\GitHub\Cuda-Game_of_Life\GameofLife\GameofLife\x64\Debug\world_grid.cu.obj "C:\Users\DELL\Documents\GitHub\Cuda-Game_of_Life\Game_of_Life\Game_of_Life\src\world_grid.cu" 
+  world_grid.cu
+  GameofLife.vcxproj -> C:\Users\DELL\Documents\GitHub\Cuda-Game_of_Life\GameofLife\x64\Debug\GameofLife.exe
