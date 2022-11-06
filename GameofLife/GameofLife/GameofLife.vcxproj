@@ -78,24 +78,6 @@
       <AdditionalOptions>--std c++17 %(AdditionalOptions)</AdditionalOptions>
     </CudaCompile>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <CudaCompile Include="..\..\Game_of_Life\Game_of_Life\src\app.cu" />
-    <CudaCompile Include="..\..\Game_of_Life\Game_of_Life\src\console_switch.cu" />
-    <CudaCompile Include="..\..\Game_of_Life\Game_of_Life\src\cpu_compute.cu" />
-    <CudaCompile Include="..\..\Game_of_Life\Game_of_Life\src\gpu_compute.cu" />
-    <CudaCompile Include="..\..\Game_of_Life\Game_of_Life\src\main.cu" />
-    <CudaCompile Include="..\..\Game_of_Life\Game_of_Life\src\world_generation.cu" />
-    <CudaCompile Include="..\..\Game_of_Life\Game_of_Life\src\world_grid.cu" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Game_of_Life\Game_of_Life\src\app.cuh" />
-    <ClInclude Include="..\..\Game_of_Life\Game_of_Life\src\console_switch.cuh" />
-    <ClInclude Include="..\..\Game_of_Life\Game_of_Life\src\cpu_compute.cuh" />
-    <ClInclude Include="..\..\Game_of_Life\Game_of_Life\src\gpu_compute.cuh" />
-    <ClInclude Include="..\..\Game_of_Life\Game_of_Life\src\system_state.cuh" />
-    <ClInclude Include="..\..\Game_of_Life\Game_of_Life\src\world_generation.cuh" />
-    <ClInclude Include="..\..\Game_of_Life\Game_of_Life\src\world_grid.cuh" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 11.7.targets" />
